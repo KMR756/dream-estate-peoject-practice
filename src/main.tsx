@@ -3,7 +3,10 @@ import "./index.css";
 
 import { RouterProvider } from "react-router";
 import { router } from "./routes/AppRoutes.tsx";
-
+import "@mantine/core/styles.css";
+import { MantineProvider } from "@mantine/core";
 createRoot(document.getElementById("root")!).render(
-  <RouterProvider router={router} />,
+  <MantineProvider>
+    <RouterProvider router={router} />
+  </MantineProvider>,
 );
