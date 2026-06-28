@@ -13,6 +13,8 @@ const ComboBox = () => {
         className="rounded-none border-0"
         style={{
           backgroundImage: `url(${Banner})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <div className="flex items-center justify-between py-3">
