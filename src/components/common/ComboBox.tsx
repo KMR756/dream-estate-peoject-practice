@@ -17,15 +17,15 @@ const ComboBox = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex items-center justify-between py-3">
-          <AlertTitle className="text-center text-2xl m-0 flex-1">
-            ✨ Discover Your Dream Property with DreamEstate.
+        <div className="flex items-center justify-between lg:py-2">
+          <AlertTitle className="text-center text-xs lg:text-2xl m-0 flex-1">
+            ✨ Discover Your Dream Property with Estatein.
             <span className="underline cursor-pointer ml-2">Learn More</span>
           </AlertTitle>
 
           <Button
             variant="ghost"
-            className="hover:bg-gray-800  h-12 w-12  "
+            className="hover:bg-black  lg:h-12 lg:w-12  "
             onClick={() => setIsOpened(false)}
           >
             <X className=" stroke-6" />
